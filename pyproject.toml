@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "avito-qa"
+version = "0.1.0"
+description = ""
+authors = ["Данил <danil.89376467241@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^9.0.2"
+requests = "^2.32.5"
+faker = "^39.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
